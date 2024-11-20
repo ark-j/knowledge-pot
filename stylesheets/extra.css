@@ -1,0 +1,19 @@
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0 !important;
+  border-left-width: 4px !important;
+  border-radius: 0 !important;
+}
+
+@font-face{
+	font-family: "JetBrainsMono Nerd Font";
+	src: url("./fonts/JetBrainsMonoNerdFontPropo-Regular.ttf")
+}
+
+code {
+	border-radius: 10px !important;
+}
+
+.md-tag {
+	border-radius: 5px !important;
+}
