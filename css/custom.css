@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  src: url("./fonts/JetBrainsMonoNerdFontPropo-Regular.ttf");
+}
+
+.md-grid {
+  max-width: 85%;
+}
+
+code {
+  border-radius: 10px !important;
+}
+
+.filename {
+  border-radius: 10px 10px 0px 0px !important;
+}
+
+.md-tag {
+  border-radius: 5px !important;
+}
+
+img {
+  border-radius: 10px;
+}
+
+termynal-comment {
+  color: #4a968f;
+  font-style: italic;
+  display: block;
+}
+
+.termy {
+  /* For right to left languages */
+  direction: ltr;
+}
+
+.termy [data-termynal] {
+  white-space: pre-wrap;
+}
+
+.termy .linenos {
+  display: none;
+}
